@@ -1,0 +1,18 @@
+.apresentacao_curriculo {
+    font-size: 28px;
+    font-weight: 600px;
+    font-family:'Krona One', sans-serif;
+    color: var(--cor-secundaria);
+
+}
+.lista_curriculo {
+    font-size: 20px;
+    font-family:'montserrat', sans-serif;
+    color: var(--cor-terciaria);
+    list-style-type: square;
+    gap: 20px;
+    
+}
+.lista_curriculo li {
+    margin-bottom: 15px;
+}

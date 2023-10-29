@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" href="./estilos/apresentacao.css">
+    <link rel="stylesheet" href="./estilos/cabecalho.css">
+    <link rel="stylesheet" href="./estilos/menumobile.css">
+    <link rel="stylesheet" href="./estilos/rodape.css">
+    <link rel="stylesheet" href="./estilos/principal.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+    <body>
+        <div class="container">
+            <input type="checkbox" id="checkbox-menu">
+            <label for="checkbox-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        </div>
+        <header class="cabecalho">
+        <nav class="cabecalho_menu">
+          <a class="cabecalho_paginas" href="index.html">Home</a>
+          <a class="cabecalho_paginas" href="sobremim.html">Sobre mim</a>
+          <a class="cabecalho_paginas" href="curriculo.html">Currículo</a>
+          <a class="cabecalho_paginas" href="contatos.html">Contatos</a>
+        </nav>
+    </header>
+            <nav class="cabecalho_menu_mobile invisivel">
+              <a class="cabecalho_paginas" href="index.html">Home</a>
+              <a class="cabecalho_paginas" href="sobremim.html">Sobre mim</a>
+              <a class="cabecalho_paginas" href="curriculo.html">Currículo</a>
+              <a class="cabecalho_paginas" href="contatos.html">Contatos</a>
+            </nav>
+    <main class="apresentacao">
+        <section class="apresentacao_secao">
+            <div id="lucas_script" class="apresentacao_titulo">
+        </div>
+            <p class="texto_home">Olá! Sou Lucas Pires Albuquerque. Atualmente, me considero um desenvolvedor em aprendizagem, comprometido em aprimorar minhas habilidades e conhecimentos na área da programação. Estou dedicando meu tempo e energia para cursar diversos cursos de programação, explorando linguagens de programação, frameworks e tecnologias relevantes. Meu objetivo é me tornar um desenvolvedor qualificado e ingressar no mercado de trabalho.
+            </p>
+            <div class="botoes">
+                <h2 class="texto_redes">Acesse minhas redes:</h2>
+            <a class="apresentacao_botoes" href="https://github.com/likraspires">
+                <img src="./imagens/github.png">
+                Github
+            </a>
+            <a class="apresentacao_botoes" href="https://instagram.com/luc_pires">
+                <img src="./imagens/instagram.png">
+                Instagram
+            </a>
+            <a class="apresentacao_botoes" href="https://www.linkedin.com/in/lucas-pires-4aa858180/">
+                <img src="./imagens/linkedin.png">
+                Linkedin
+            </a>
+            </div>
+            </section>
+        <img class="apresentacao_imagem" src="./imagens/lucas.png" alt="Foto do meu atual currículo">
+    </main>
+    <footer class="rodape">
+        <div class="logo_alura">
+        <img class="logo_alura" src="imagens/logo_alura.png" 
+        alt="Logo da Empresa"> 
+        </div>
+        <div class="frase_rodape">
+            <p>Desenvolvido por Lucas Pires no Programa Alura Include.</p>
+        </div>
+        <div class="logo_talentos">
+            <img class="logo_talentos" src="imagens/talentos-de-futuro.png" 
+            alt="Logo Talentos"> 
+            </div>
+    </footer>
+    <script src="./js/script.js"></script>
+    <script src="./js/exibirletra.js"></script>
+</body>
+</html>

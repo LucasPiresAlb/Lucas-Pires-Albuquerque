@@ -1,0 +1,20 @@
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+.apresentacao_secao {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.apresentacao_titulo {
+    font-size: 36px;
+    font-family:'Krona One', sans-serif;
+    color: var(--cor-secundaria);
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,23 @@
+
+.rodape {
+    color: var(--cor-terciaria);
+    font-family: 'montserrat' sans-serif;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px groove var(--cor-secundaria);
+}
+.frase_rodape {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    color: var(--cor-secundaria);
+  }
+.logo_alura {
+    width: 100px;
+}
+.logo_talentos{
+    width: 100px;
+}

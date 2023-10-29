@@ -1,0 +1,49 @@
+.contatos {
+    display: flex;
+    width: 512px;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 45px;
+}
+.contatos h2{
+    color: #9322fd;
+    font-size: 32px;
+    font-weight: 16px;
+}
+
+.contatos label{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.contatos input{
+    height: 40px;
+    
+}
+.contatos input, .contatos textarea{
+    background-color: transparent;
+    border: 2px solid #9322fd;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+.contatos input:focus, .contatos textarea:focus {
+    outline: 2px solid #9322fd;
+    
+}
+.contatos button {
+    height: 40px;
+    background-color: #9322fd;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+.rodape {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px; /* Espaçamento interno do footer */
+  }

@@ -1,0 +1,113 @@
+@media (max-width: 768px) {
+    .cabecalho_menu {
+        display: none;
+    }
+    .texto_home{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+        align-items: center;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .apresentacao_botoes {
+        padding: 15px 0;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .apresentacao_secao {
+        width: auto;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .rodape {
+        max-width: 100%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .container{
+        display: initial;
+        position: absolute;
+        padding: 15px;
+        z-index: 2;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    #checkbox-menu {
+        position: absolute;
+        z-index: 3;
+        display: none;
+    }
+    .cabecalho_menu_mobile{
+        display: flex;
+        gap: 5px;
+        padding: 15px;
+        border: 0.5px groove var(--cor-secundaria);
+        width: 100%;
+        opacity: 0;
+        animation: fadeIn 1s ease-in-out forwards;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    } }
+    .cabecalho_paginas {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    label{
+        cursor: pointer;
+        position: relative;
+        display: block;
+        height: 22px;
+        width: 30px;
+    }
+    label span{
+        position: absolute;
+        display: block;
+        height: 5px;
+        width: 100%;
+        border-radius: 30px;
+        background: #9322fd;
+        transition: 0.25s ease-in-out;
+    }
+    
+    label span:nth-child(1){
+        top: 0;
+    }
+    label span:nth-child(2){
+        top: 8px;
+    }
+    label span:nth-child(3){
+        top: 16px;
+    }
+    
+    #checkbox-menu:checked + label span:nth-child(1) {
+        transform: rotate(-45deg);
+        top: 8px;
+    }
+    #checkbox-menu:checked + label span:nth-child(2) {
+        opacity: 0;
+    }
+    #checkbox-menu:checked + label span:nth-child(3) {
+        transform: rotate(45deg);
+        top: 8px;
+    }
